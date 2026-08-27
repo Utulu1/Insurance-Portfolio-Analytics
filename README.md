@@ -553,6 +553,6 @@ If you found this project useful or would like to discuss actuarial modelling, i
 
 ## License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
