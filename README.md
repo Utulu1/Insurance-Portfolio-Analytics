@@ -1,8 +1,35 @@
+![Insurance Portfolio Performance Analytics](images/insurance_portfolio_analytics_banner.png)
+
 # Insurance Portfolio Analytics
 
 > **End-to-End Insurance Portfolio Performance, Risk & Management Analytics using SQL Server and Power BI**
 
 An insurance analytics project designed to evaluate portfolio profitability, claims performance, exposure concentration and underwriting risk, and translate the findings into actionable management decisions.
+
+---
+
+## Table of Contents
+
+- [Executive Summary](#executive-summary)
+- [Business Problem](#business-problem)
+- [Project Objectives](#project-objectives)
+- [Analytical Workflow](#analytical-workflow)
+- [Core Insurance Metrics](#core-insurance-metrics)
+- [Key Results](#key-results)
+- [2024 Policy-Type Analysis](#2024-policy-type-analysis)
+- [Business & Actuarial Insights](#business--actuarial-insights)
+- [Business Impact & Recommendations](#business-impact--recommendations)
+- [Power BI Dashboard Showcase](#power-bi-dashboard-showcase)
+- [Assumptions](#assumptions)
+- [Limitations](#limitations)
+- [Technologies Used](#technologies-used)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Repository Structure](#repository-structure)
+- [How to Reproduce the Analysis](#how-to-reproduce-the-analysis)
+- [Future Enhancements](#future-enhancements)
+- [Conclusion](#conclusion)
+- [Author](#author)
+- [License](#license)
 
 ---
 
@@ -340,50 +367,37 @@ The broader management implication is that portfolio growth should be assessed a
 
 ---
 
-## Power BI Dashboard
+## Power BI Dashboard Showcase
 
-The reporting solution contains three principal dashboard pages.
+The Power BI solution consists of three interconnected dashboard pages designed to move from executive portfolio monitoring to detailed claims analysis and management action.
 
 ### 1. Insurance Portfolio Executive Overview
 
-Provides senior-management visibility of:
-
-- Total premium
-- Total incurred claims
-- Overall loss ratio
-- Policy records
-- Premium and claims trends
-- Policy-type performance
-- Vehicle-age performance
-- Business-type performance
+Provides a high-level view of portfolio growth, underwriting performance and risk trends across 2022–2024.
 
 ![Insurance Portfolio Executive Overview](images/executive_overview.png)
 
+**Key decision areas:** Premium growth • Claims development • Loss ratio trends • Policy-type performance • Vehicle-age risk • Business-type performance
+
+---
+
 ### 2. Risk & Claims Analysis
 
-Focuses on the underlying drivers of claims performance through:
-
-- Total claims
-- Claim frequency
-- Claim severity
-- Frequency by policy type
-- Severity by policy type
-- Frequency-versus-severity analysis
+Examines the underlying claims drivers through frequency, severity and policy-level risk segmentation.
 
 ![Risk and Claims Analysis](images/risk_claims_analysis.png)
 
+**Key decision areas:** Claim frequency • Claim severity • Policy-type risk • Frequency–severity interaction
+
+---
+
 ### 3. Policy Type Performance & Management Actions
 
-Provides segment-level decision support through:
-
-- Portfolio exposure
-- Exposure share
-- Loss ratio
-- Claim frequency
-- Claim severity
-- Management-action classification
+Translates portfolio performance into segment-level management actions by combining exposure, loss ratio, claim frequency and claim severity.
 
 ![Policy Type Performance and Management Actions](images/policy_type_management_actions.png)
+
+**Key decision areas:** Exposure concentration • Underwriting performance • Risk prioritisation • Maintain / Monitor / Review actions
 
 ---
 
